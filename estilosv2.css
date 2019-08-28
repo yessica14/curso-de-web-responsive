@@ -1,0 +1,215 @@
+body{
+	background:url(imagenes/rosa.jpg);
+}
+#contenedor {
+	width:824px;
+	height:568px;
+    margin-right:auto;
+	margin-left:auto;
+    margin-top:10px;
+    margin-bottom: 10px;
+}
+h1{
+	color:#04108A;
+	font-size:200%;
+	text-align:center;
+	font-family: 'Abril Fatface', cursive;
+	text-shadow:5px 5px 5px #9284c2;
+}
+
+h2{
+	color:#04108A;
+   font-family: 'Shadows Into Light', cursive;
+}
+p{
+	font-family:Helvetica;
+}
+figure{
+	text-align:center;
+
+}
+figcaption{
+	font-family: 'Merienda', cursive;
+}
+h5{
+	font-family:Helvetica;
+	font-size:100%;
+	font-family: 'Righteous', cursive;
+}
+img{
+	width:400px;
+	height:250px;
+
+}
+
+.parte_videos{
+ color:#eee;
+ text-align:center;
+}
+h3{
+	font-family:Arial Helvetica sans-serif;
+	font-size:150%;
+	text-align:center;
+	color:#04108A;
+	font-family: 'Righteous', cursive;
+}
+#letra_del_video{
+	font-family: 'Merienda', cursive;
+}
+ @-webkit-keyframes mano2 {
+	0% {	 
+		-webkit-transform: rotate(0deg) translate(0px,0px);
+	}
+	100% {
+		-webkit-transform: rotate(-360deg) translate(0px,0px);	
+	}
+}
+#face{
+	width:45px;
+	height:45px;
+}
+#gmail{
+	width:45px;
+	height:45px;
+	-webkit-animation-name: mano2;
+    -webkit-animation-duration: 3s;
+    -webkit-animation-iteration-count:infinite;
+	-webkit-animation-direction: alternate; 
+	-webkit-animation-timing-function: ease-in;
+}
+#instagram{
+	width:45px;
+	height:45px;
+}
+#twiter{
+	width:45px;
+	height:45px;
+}
+#youtuve{
+	width:45px;
+	height:45px;
+}
+/*aqui comienza el media */
+
+@media handheld, screen and (min-width: 600px) and (max-width: 1023px){
+
+#contenedor {
+	width:560px;
+	height:568px;
+    
+}
+
+
+img{
+	width:200px;
+	height:150px;
+
+}
+video{
+	width:480px;
+	height:300px;
+}
+iframe{
+	width:480px;
+	height:300px;
+}
+
+
+h3{
+	
+	font-size:120%;
+	
+}
+
+}
+/*es la segunda @media*/
+@media handheld, screen and (max-width:599px){
+
+#contenedor {
+	width:90%;
+	height:568px;
+    margin-right:auto;
+	margin-left:auto;
+    margin-top:10px;
+    margin-bottom: 10px;
+}
+h1{
+	color:#04108A;
+	font-size:100$;
+	text-align:center;
+	font-family: 'Abril Fatface', cursive;
+	text-shadow:5px 5px 5px #9284c2;
+}
+
+h2{
+	color:#04108A;
+   font-family: 'Shadows Into Light', cursive;
+   text-align:center;
+}
+p{
+	font-family:Helvetica;
+}
+figure{
+	text-align:center;
+
+}
+figcaption{
+	font-family: 'Merienda', cursive;
+}
+video{
+	width:20em;
+	height:20em;
+}
+iframe{
+	width:20em;
+	height:15em;
+}
+h5{
+	font-family:Helvetica;
+	font-size:100%;
+	font-family: 'Righteous', cursive;
+}
+img{
+	width:400px;
+	height:250px;
+
+}
+
+.parte_videos{
+ color:#eee;
+ text-align:center;
+}
+h3{
+	font-family:Arial Helvetica sans-serif;
+	font-size:150%;
+	text-align:center;
+	color:#04108A;
+	font-family: 'Righteous', cursive;
+}
+#letra_del_video{
+	font-family: 'Merienda', cursive;
+}
+footer{
+	display:none;
+}
+#face{
+	width:45px;
+	height:45px;
+}
+#gmail{
+	width:45px;
+	height:45px;
+}
+#instagram{
+	width:45px;
+	height:45px;
+}
+#twiter{
+	width:45px;
+	height:45px;
+}
+#youtuve{
+	width:45px;
+	height:45px;
+}
+}
